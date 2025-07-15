@@ -1,0 +1,1 @@
+EXEC DBMS_STATS.GATHER_TABLE_STATS(ownname => 'YOUR_SCHEMA', tabname => 'CLAIMS');
